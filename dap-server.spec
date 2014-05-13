@@ -5,12 +5,12 @@
 Summary:	Basic request handling for OPeNDAP servers
 Summary(pl.UTF-8):	Podstawowa obsługa żądań dla serwerów OPeNDAP
 Name:		dap-server
-Version:	4.1.3
+Version:	4.1.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/%{name}-%{version}.tar.gz
-# Source0-md5:	4f11130d6d84c4d22ba2f116efcf6ef1
+# Source0-md5:	3ff3ce55803ba532b7408882c0690a22
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.10
