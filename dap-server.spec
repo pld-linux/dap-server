@@ -1,3 +1,4 @@
+# NOTE: for versions >= 4.2.3 see bes.spec
 #
 # Conditional build:
 %bcond_without	tests	# make check
@@ -15,6 +16,7 @@ URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.10
 BuildRequires:	bes-devel >= 3.9.0
+BuildRequires:	bes-devel < 3.14
 %{?with_tests:BuildRequires:	cppunit-devel >= 1.12.0}
 BuildRequires:	libdap-devel >= 3.11.0
 BuildRequires:	libstdc++-devel
